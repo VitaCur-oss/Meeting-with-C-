@@ -15,8 +15,8 @@ int b = int.Parse(ReadLine()!);
 
 if (a > b) 
 {
-    WriteLine($"Наибольшее число: {a}");
-    WriteLine($"Наименьшее число: {b}");
+    WriteLine($"Max = {a}");
+    WriteLine($"Min = {b}");
 }
     else if (a == b)
     {
@@ -24,6 +24,6 @@ if (a > b)
     }
 else
 {
-    WriteLine($"Наибольшее число: {b}");
-    WriteLine($"Наименьшее число: {a}");
+    WriteLine($"Max = {b}");
+    WriteLine($"Min = {a}");
 }
