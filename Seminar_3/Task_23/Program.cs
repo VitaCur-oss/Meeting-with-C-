@@ -12,7 +12,7 @@ if (a > 0)
 {
     while (b <= a)
     {
-        Write(Math.Pow(b,3) + " ");
+        Write(Math.Pow(b, 3) + " ");
         b++;
     }
 }
@@ -20,7 +20,7 @@ else
 {
     while (b >= a)
     {
-        Write(Math.Pow(b,3) + " ");
+        Write(Math.Pow(b, 3) + " ");
         b--;
     }
 }
