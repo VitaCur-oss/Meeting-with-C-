@@ -12,8 +12,6 @@ PrintArray(array);
 double diff = Diff(array);
 WriteLine($" -> {diff}");
 
-
-
 double[] GetArray(int size)
 {
     double[] res = new double[size];
@@ -47,4 +45,6 @@ double Diff(double[] darr)
     return maxValue - minValue;
 }
         
+
+
     
